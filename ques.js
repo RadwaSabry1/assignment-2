@@ -9,8 +9,8 @@ function filen(filePath) {
 }
 //3
 
-function buildPath(obj) {
-    return path.join(obj.dir, obj.name + obj.ext);
+function form(bb){
+    return path.format(bb)
 }
 //4
 
