@@ -148,7 +148,7 @@ pp();
 console.log(filen("/user/files/report.pdf"));
 
 //3
-console.log(buildPath({ dir: "/folder", name: "app", ext: ".js" }));
+console.log(form({ dir: "/folder", name: "app", ext: ".js"}))
 
 //4
 console.log(ext("/docs/readme.md"));
